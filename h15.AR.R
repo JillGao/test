@@ -1,3 +1,4 @@
+### Edited by Jill 2
 toInstall <- c("fGarch","zoo")
 lapply(toInstall, require, character.only=T)
 
