@@ -1,3 +1,4 @@
+# Edit by master
 toInstall <- c("fGarch","zoo")
 lapply(toInstall, require, character.only=T)
 
