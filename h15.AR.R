@@ -20,7 +20,6 @@ for (i in 9){
   series <- ym[,i]
   series <- series[!is.na(series)] # remove NA values
   #dates <- rdate[!is.na(series)]
-"H15_AR.R" 41L, 1452C                                                          1,1           Top
 ###################### Run AR(2)+GARCH(1,1) ########################
 nforecast <- 5
 # each column is forecast of each maturity bond yield
